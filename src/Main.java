@@ -1,6 +1,7 @@
 import HackerRankSolutions.HackerRank1;
 import HackerRankSolutions.HackerRank2;
 import HackerRankSolutions.HackerRank3;
+import HackerRankSolutions.HackerRank4;
 
 import java.util.*;
 
@@ -33,6 +34,17 @@ public class Main {
 
         System.out.println("input : " + input3);
         System.out.println("result : "+ hackerRank3.taumBday(input3.get("b"),input3.get("w"),input3.get("bc"),input3.get("wc"),input3.get("z")));
+
+        System.out.println("********************* HackerRank4  ********************* ");
+
+        int [] inputHR4 = {2,4,4,2,1,1,3,6,5,7,7,6,5};
+
+        System.out.println("Input : " + Arrays.toString(inputHR4));
+
+        HackerRank4 hackerRank4 = new HackerRank4(inputHR4);
+
+        System.out.println("Output : " + hackerRank4.getOutput());
+
     }
 
 }

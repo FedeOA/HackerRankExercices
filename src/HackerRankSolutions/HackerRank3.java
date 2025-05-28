@@ -26,8 +26,9 @@ public class HackerRank3 {
             throw new Exception("valor invalido");
         }
 
-        if (normalWay<bcCheaper){
+        if (normalWay<bcCheaper)
             return Math.min(normalWay, wcCheaper);
-        }else return Math.min(bcCheaper, wcCheaper);
+        else
+            return Math.min(bcCheaper, wcCheaper);
     }
 }
